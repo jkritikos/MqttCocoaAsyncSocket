@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'MqttCocoaAsyncSocket'
-  s.version  = '1.0.8'
+  s.version  = '13.0.0'
   s.license  = { :type => 'public domain', :text => <<-LICENSE
 Public Domain License
 
@@ -29,7 +29,7 @@ Updated and maintained by Deusty LLC and the Apple development community.
   s.requires_arc = true
 
   s.osx.deployment_target = "10.12"
-  s.ios.deployment_target = "9.0"
+  s.ios.deployment_target = "13.0"
   s.tvos.deployment_target = "10.0"
 
   s.ios.frameworks = 'CFNetwork', 'Security'
